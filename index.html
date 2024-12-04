@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Циклічний двонапрямлений список</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #4caf50;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .list {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background: #f9f9f9;
+      }
+      button {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Циклічний двонапрямлений список</h1>
+      <div id="output" class="list">Список порожній.</div>
+      <button onclick="createList()">Створити список</button>
+      <button onclick="printList()">Вивести список</button>
+      <button onclick="findElement()">Знайти елемент</button>
+      <button onclick="insertBefore()">Вставити перед</button>
+      <button onclick="insertAfter()">Вставити після</button>
+      <button onclick="deleteElement()">Видалити елемент</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
